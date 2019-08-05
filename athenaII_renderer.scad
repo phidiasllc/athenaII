@@ -23,8 +23,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 include <athenaII.scad>
 include<extruder_drive.scad>
 
-//render_part(part_to_render = 10);
-render_plate(plate_to_render = 20);
+//render_part(part_to_render = 14);
+render_plate(plate_to_render = 3);
 
 // renders individual parts
 module render_part(part_to_render) {
@@ -117,7 +117,15 @@ module render_plate(plate_to_render) {
 
 	// hot end effector
 	if (plate_to_render == 3) {
-		hotend_effector(quickrelease = true, dalekify = false);
+        hotend_effector(quickrelease = true, dalekify = false, headless = true);
+        
+        translate([45, -40, 0])
+            rotate([0, 0, 180])
+                hotend_effector(quickrelease = true, dalekify = false, headless = true);
+
+        translate([-45, -40, 0])
+            rotate([0, 0, 180])
+                hotend_effector(quickrelease = true, dalekify = false, headless = true);
 	}
 
 	// fixed terminators
