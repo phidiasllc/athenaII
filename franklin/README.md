@@ -1,6 +1,6 @@
 <h1>Updating Franklin</h1>
 <ol>
-<li>Download each of the deb packages in the list above by clicking on them and then clicking the Download button in the page that opens</li>
+<li>Download each of the deb packages in the list above by clicking on them and then clicking the Download button in the page that opens.</li>
 <li>Copy the files to the root folder of a USB thumb drive that contains no other deb packages, i.e., no files having a deb file extension can be in the root folder of the thumb drive.</li>
 <li>Insert the thumb drive into the USB socket on the Orange Pi Zero.</li>
 <li>Use a secure shell (ssh) client to login to the Orange Pi Zero:
