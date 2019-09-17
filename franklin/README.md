@@ -11,7 +11,7 @@
 <li> Mac and Linux both have a native ssh client.</li>
 <li>To open a command line in Windows 10, type 'cmd' into the search bar.</li>
 <li>At the command prompt, type ssh debian@192.168.76.2</li>
-<li>The ssh client will (including PuTTY) will open at another command prompt.</li>
+<li>The ssh client (including PuTTY) will open at another command prompt.</li>
 </ul></li>
 <li> All following commands in quotes should be entered <strong>without</strong> the quotations</li>
 <li>At the ssh command prompt, type "sudo dmesg" and press enter. If prompted, enter the password (above) and press enter.</li>
