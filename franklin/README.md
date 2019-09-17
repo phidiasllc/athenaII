@@ -16,7 +16,7 @@
 <li> All following commands in quotes should be entered <strong>without</strong> the quotations</li>
 <li>At the ssh command prompt, type "sudo dmesg" and press enter. If prompted, enter the password (above) and press enter.</li>
 <li> At the end of many lines of text should be the id assigned to the thumb drive. It will likely be 'sda1' or similar.</li>
-<li>Type "sudo mount /dev/sda1 /media" and press enter.</li>
+<li>Type "sudo mount /dev/sda1 /media" and press enter. Replace the sda1 in the preceding command by whatever dmesg reports.</li>
 <li>Type "cd /media" and press enter.</li>
 <li>Type "sudo dpkg -i *.deb" and press enter. The packages will be installed. When complete, the command prompt will be displayed.</li>
 <li>Type "cd ~" and press enter.</li>
